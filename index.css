@@ -1,0 +1,46 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(12, 11, 11);
+}
+.navigation{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.navigation h1{
+    font-size: 30px;
+}
+.container{
+    background-color: rgb(12, 11, 11);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    padding: 19px;
+    margin: 10px 5px 10px 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgb(12, 11, 11);
+    border: none;
+}
+.buttons:hover{
+    color: rgb(3, 71, 71);
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    width: 240px;
+    font-size: larger;
+    background-color:rgb(12, 11, 11) ;
+    color: white;
+    border: none;
+}
+
